@@ -7,7 +7,6 @@ import { FaTrash } from "react-icons/fa";
 
 export default function HomePage() {
 
-    const [ranking, setRanking] = useState([]);
     const { auth } = useAuth();
     const navigate = useNavigate();
     const [formData, setFormData] = useState({ url: ""});
