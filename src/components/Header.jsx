@@ -11,7 +11,7 @@ export default function Header() {
         <HeaderSC>
             <TopMenu>
                 <LeftOptions>
-                    { auth ? <GreenP onClick={signOut}>Seja bem-vindo(a), {auth.name}!</GreenP> : <GreenP>  </GreenP>}
+                    { auth ? <GreenP onClick={signOut}>Seja bem-vindo(a), {auth ? auth.name : ""}!</GreenP> : <GreenP>  </GreenP>}
                 </LeftOptions>
                 <RightOptions>
                     { auth ? <p><Link to="/">Home</Link></p> : <GreenP><Link to="/signin">Entrar</Link></GreenP>}

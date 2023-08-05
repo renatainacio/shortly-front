@@ -18,7 +18,7 @@ export default function HomePage() {
 
     config = {
         headers: {
-          "Authorization": `Bearer ${auth.token}`
+          "Authorization": `Bearer ${auth ? auth.token : ""}`
         }
       }
 
