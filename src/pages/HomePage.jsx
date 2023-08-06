@@ -107,6 +107,8 @@ export default function HomePage() {
 }
 
 const Home = styled.div`
+    background-color: #FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
