@@ -40,6 +40,8 @@ export default function HomePage() {
 }
 
 const Rank = styled.div`
+    background-color: #FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -54,6 +54,8 @@ const GreenP = styled.p`
 
 
 const HeaderSC = styled.div`
+    background-color: #FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
